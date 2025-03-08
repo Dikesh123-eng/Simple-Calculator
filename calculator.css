@@ -1,0 +1,58 @@
+* {
+    margin: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("back.png");
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+
+
+
+#calculator {
+    border: 1px solid rgb(187, 183, 183);
+    border-radius: 5px;
+    width: 250px;
+    background-color: bisque;
+    box-sizing: content-box;
+    align-content: center;
+
+
+}
+
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+#design_button {
+    background-color: chocolate;
+}
